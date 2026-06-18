@@ -117,14 +117,14 @@ Tests cover validation logic for creating applications (required fields, type en
 
 Base URL: `http://localhost:5000/api`
 
-| Method | Endpoint              | Description                          |
-| ------ | --------------------- | ------------------------------------ |
-| GET    | `/applications`       | List all (supports `?status=`, `?search=`, `?page=`, `?limit=`) |
-| GET    | `/applications/:id`   | Get single application               |
-| POST   | `/applications`       | Create application                   |
-| PATCH  | `/applications/:id`   | Partial update                       |
-| DELETE | `/applications/:id`   | Delete application                   |
-| GET    | `/health`             | Health check                         |
+| Method | Endpoint            | Description                                                     |
+| ------ | ------------------- | --------------------------------------------------------------- |
+| GET    | `/applications`     | List all (supports `?status=`, `?search=`, `?page=`, `?limit=`) |
+| GET    | `/applications/:id` | Get single application                                          |
+| POST   | `/applications`     | Create application                                              |
+| PATCH  | `/applications/:id` | Partial update                                                  |
+| DELETE | `/applications/:id` | Delete application                                              |
+| GET    | `/health`           | Health check                                                    |
 
 ### Example: Create Application
 
@@ -178,7 +178,9 @@ I used Claude (Anthropic) to help scaffold boilerplate, structure types across f
 
 ## Screenshots
 
-_Add screenshots of the app here before submission._
+![Dashboard](./screenshots/26739F8C-286C-42F3-9EC7-FC3D622D15F8.jpeg)
+![Add Application](./screenshots/3E221DF7-8ECE-4601-9FB6-A8DD3D84B60B.jpeg)
+![Application Detail](./screenshots/DCCA3BD2-5CD7-4487-A7DE-ABF7E4A4527B.jpeg)
 
 ---
 
