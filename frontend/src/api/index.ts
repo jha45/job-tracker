@@ -5,9 +5,8 @@ import {
   ApplicationStatus,
 } from "../types";
 
-const BASE_URL = import.meta.env.VITE_API_URL
-  ? `${import.meta.env.VITE_API_URL}/api`
-  : "/api";
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const BASE_URL = `${(import.meta as any).env.VITE_API_URL ?? ""}/api`;
 
 async function request<T>(path: string, options?: RequestInit): Promise<T> {
   const res = await fetch(`${BASE_URL}${path}`, {
